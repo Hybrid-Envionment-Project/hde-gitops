@@ -1,0 +1,28 @@
+# Secrets and credentials
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.kubeconfig
+kubeconfig
+secrets.yaml
+secrets.yml
+*-secret.yaml
+*-secret.yml
+
+# Backups and dumps
+*.sql
+*.bak
+*.dump
+
+# Logs and temp files
+*.log
+/tmp/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
